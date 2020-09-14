@@ -1,6 +1,11 @@
 html {
-  background-color: cornsilk;
+  background-color: seashell;
 }
+
+.float-right {
+  float: right;
+}
+
 #name {
   background-color: rgb(110, 146, 110);
   color: white;
@@ -13,7 +18,7 @@ html {
 /* about section */
 
 .container-fluid {
-  background-color: cornsilk;
+  background-color: seashell;
   margin: 0 auto;
   width: 100;
 }
