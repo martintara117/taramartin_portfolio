@@ -1,0 +1,16 @@
+html {
+  background-color: cornsilk;
+}
+#name {
+  background-color: rgb(110, 146, 110);
+  color: white;
+}
+
+#navbarNav {
+  float: right;
+}
+
+#aboutme {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+}
