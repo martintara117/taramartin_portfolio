@@ -17,7 +17,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -44,33 +44,38 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             </li>
-            <li id="aboutmelink" class="nav-item">
+            <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Me</a>
             </li>
-            <li id="portfoliolink" class="nav-item active">
+            <li class="nav-item active">
                 <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
               </li>
-            <li id="contactlink" class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
           </ul>
         </div>
       </nav>
-
-    <div class="container">
-      <div class="row">
-        <div
-          class="col-sm-8 shadow-sm p-3 mb-5 bg-white rounded"
-          style="background-color: wheat"
-        >
-          <h1 id="aboutme" class="p-3 mb-2 bg-white text-info">About Me</h1>
-                <img src=".assets/me.jpg" class="rounded float-left img-thumbnail" alt="Me">
-                <p class="lead text-wrap">Hey! My name is Tara Martin. I was born and raised in Marietta, GA. I graduated from Murray State University with a degree in Jouranlism and Secondary History Education. For the past five years I have worked in middle and high schools teaching history. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis distinctio soluta assumenda corporis eos culpa quos enim esse cumque temporibus quod quas, exercitationem iusto ut repellendus suscipit nobis ullam. Nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quam? Libero veniam voluptatum minima adipisci in itaque quisquam aperiam, earum minus ea officia. Vel voluptates magni voluptatibus magnam itaque fugit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita eaque similique adipisci aliquid eveniet inventore. Voluptatum, accusantium. Eaque, architecto distinctio illum nemo dolor dicta ex fugiat asperiores beatae nam ea!</p>
-              </div>
+<!-- about me section -->
+    <section class="container-fluid">
+      <div class="row about me">
+        <div class="col-sm-8 about-section">
+          <h1 class="about-me-heading">About Me</h1>
+                <img src="./assets/me.jpg" 
+                class="about-me-pic" 
+                alt="Me">
+                <div class="about-me-paragraph">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil dolor ipsum atque! Excepturi cupiditate maiores libero, id commodi consequuntur accusamus tenetur in quae fugiat aliquid, reiciendis at, minima error!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam eligendi aliquid ipsam nulla, iusto modi doloremque sunt vel qui dolor voluptatem consectetur ad sapiente voluptate cumque repellendus officia ab?</p>
+                </div>
+                </div>
           </div>
         </div>
       </div>
-    </div>
-
+    </section>
+<!-- footer -->
+<footer>
+  <div class="footer-nav"></div>
+</footer>
   </body>
 </html>
