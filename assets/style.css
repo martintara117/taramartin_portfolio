@@ -1,7 +1,8 @@
+/* html background for all three pages*/
 html {
   background-color: seashell;
 }
-
+/* nav bar for all three pages */
 .float-right {
   float: right;
 }
@@ -15,14 +16,14 @@ html {
   float: right;
 }
 
-/* about section */
+/* container for all three pages */
 
 .container-fluid {
   background-color: seashell;
   margin: 0 auto;
   width: 100;
 }
-
+/* about me row */
 .aboutme-row {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -30,7 +31,7 @@ html {
   background-color: white;
   padding: 5%;
 }
-
+/* contact row */
 .contact-row {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -38,7 +39,7 @@ html {
   background-color: white;
   padding: 5%;
 }
-
+/* protfolio row */
 .portfolio-row {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -46,22 +47,22 @@ html {
   background-color: white;
   padding: 5%;
 }
-
+/* about me heading */
 .aboutme-h1 {
   color: rgb(110, 146, 110);
   border-bottom: 1px solid rgb(110, 146, 110);
 }
-
+/* contact heading */
 .contact-h1 {
   color: rgb(110, 146, 110);
   border-bottom: 1px solid rgb(110, 146, 110);
 }
-
+/* portfolio heading */
 .portfolio-h1 {
   color: rgb(110, 146, 110);
   border-bottom: 1px solid rgb(110, 146, 110);
 }
-
+/* contact button */
 .btn {
   background-color: rgb(110, 146, 110);
   border-color: rgb(110, 146, 110);
@@ -71,16 +72,19 @@ html {
   background-color: rgb(110, 146, 110);
   border-color: rgb(110, 146, 110);
 }
-
+/* about me picture */
 .about-me-pic {
   margin-right: 20px;
   float: left;
 }
-
+/* portfolio images */
 .rounded {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left:
+  margin-left: 20px;
   margin-right: 20px;
   padding: 15%;
-}
+
+/* @media screen and (max-width: 600px) {
+  .container {margin: 10%;}
+} */
