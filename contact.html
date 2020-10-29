@@ -33,14 +33,27 @@
   </head>
   <body>
     <!-- nav bar -->
-    <header>
-      <span class="d-block p-2"><h1 class="header">Tara Martin</h1>
-    <!-- nav bar links -->
-            <a class="nav" href="index.html">About Me<span class="sr-only">(current)</span></a>
-            <a class="nav" href="portfolio.html">Portfolio</a>
-            <a class="nav" href="contact.html">Contact</a>
-    </span>
-  </header>
+    <nav class="navbar navbar-expand-lg p-2">
+        <a id="name" class="navbar-brand" href="#">Tara Martin</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- nav bar links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" color: lightgrey">About Me<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
 <!-- form-->
       <section class="container-fluid">
         <div class="row">
