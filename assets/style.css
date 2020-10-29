@@ -7,6 +7,16 @@ html {
   float: right;
 }
 
+.header {
+  color: rgb(110, 146, 110);
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+  padding-right: 100px;
+}
+
 #name {
   background-color: rgb(110, 146, 110);
   color: white;
@@ -15,6 +25,7 @@ html {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 12px;
+  margin-left: 50px;
 }
 
 .navbar-nav {
@@ -26,6 +37,11 @@ html {
   border-color: rgb(110, 146, 110);
   border-width: 1px; */
   background-color: white;
+}
+
+.nav-link {
+  padding: 10px;
+  margin-right: 50px;
 }
 
 /* container for all three pages */
