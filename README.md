@@ -4,15 +4,6 @@
 
 This portfolio will be used to display the projects made while at Georgia Techs' Coding BootCamp. It is also a tool to dispaly my understanding of css, html and bootstrap. The portfolio has an About Me page, a Contact page and a Portfolio page. Each page is designed to market myself to future employers.
 
-## Screenshot
-
-![taramartin_portfolio](assets/images/aboutme1.png)
-![taramartin_portfolio](assets/images/aboutme2.png)
-![taramartin_portfolio](assets/images/contact1.png)
-![taramartin_portfolio](assets/images/contact2.png)
-![taramartin_portfolio](assets/images/portfolio1.png)
-![taramartin_portfolio](assets/images/portfolio2.png)
-
 ## Acceptance_Criteria
 
 - Functional, deployed application
