@@ -33,9 +33,21 @@ This portfolio will be used to display the projects made while at Georgia Techs'
 
 - Must properly utilize Bootstrap components and grid system.
 
-## Installation
+## Instillation
 
-Please visit my Github page - user name is martintara117. Once there, clone my taramartin_portfolio repisitory. After you have cloned, you may add it to your repository. From there, you will git pull and type code . to open Visual Studio Code to edit.
+1. Please visit my Github page - user name is martintara117.
+2. Once there, clone my repository for "taramartin_portfolio".
+3. After you have cloned, you may add it to your repository.
+4. From there, you will git pull and type code . to open Visual Studio Code to edit.
+
+## Usage
+
+Please view gif to see the how the quiz performance.
+![weather_api](assets/images/taramartin-portfolio.gif)
+
+To view live visit: [click here.](https://martintara117.github.io/taramartin_portfolio/)
+
+One may also view locally by following the above installation steps and opening [index.html](index.html) in your browser.
 
 ## Credits
 
